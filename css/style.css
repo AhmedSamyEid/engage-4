@@ -1,0 +1,1076 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    overflow: hidden;
+    height: 4200px;
+}
+.container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photo/barber-15.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container img {
+    width: 10%;
+    margin-left: 5%;
+    position: relative;
+    top: 40px;
+    
+    z-index: 999;
+    top: 0;
+}
+.navbar {
+    text-align: end;
+    word-spacing: 20px;
+    
+    position: fixed;
+    left: 40%;
+    top: 0;
+    font-weight: 200;
+    width: 59%;
+    z-index: 1000; 
+
+}
+.navbar .ho {
+    color: #e0c690;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    right: 10%;
+    top: 0;
+    
+}
+.navbar a:hover {
+    color: #e0c690;
+    
+}
+.navbar.scrolled {
+    background-color:rgb(255, 9, 9) ;  
+    transition: background-color 0.7s;
+    height: 60px;
+}
+.Learn {
+    position: relative;
+    top: 300px;
+    left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px#e0c690;
+    background-color: #e0c690;;
+    width: 9%;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.VIEW{
+    position: relative;
+    top: 300px;
+    left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #e0c690;
+    width: 12%;
+    background-color: #e0c690;
+    height: 50px;
+    color: #ffffff;
+    transition: 0.4s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn {
+    word-spacing: 10px;
+    position: relative;
+    bottom: 250px;
+    
+}
+.VIEW:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+.Learn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.veented {
+    width: 30%;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    left: 5%;
+}
+.fadeInUp {
+    position: relative;
+    top: 10px;
+    left: 5%;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 300;
+}
+.visible {
+    position: relative;
+    top: 15px;
+    left: 5%;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 300;
+}
+.layr {
+    width: 100%;
+    height: 350px;
+    background-color: #e0c5903e;
+    position: relative;
+    top: 210px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    font-size: 40px;
+    
+}
+.circet {
+    font-size: 80px; 
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.powerful {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    color: #656565c9;
+}
+.powerful h2 {
+    font-size: 20px;
+}
+.powerful h5 {
+    font-size: 20px;
+}
+.morbi {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    left: 7%;
+    color: #656565c9;
+}
+.s {
+    position: relative;
+    left: 15%;
+}
+.a {
+    position: relative;
+    left: 10%;
+}
+.l {
+    position: relative;
+    left: 5%;
+}
+.layr2 {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(231, 228, 228, 0.305);
+    position: relative;
+    top: 140px;
+}
+.layr2 h3 {
+    position: relative;
+    left: 5%;
+    bottom: 450px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #e0c690;
+}
+.layr2 p {
+    position: relative;
+    bottom: 420px;
+    width: 50%;
+    left: 5%;
+    color: #3a3838;
+}
+.layr2 img {
+    position: relative;
+    left: 55%;
+    top: 100px;
+    height: 550px;
+    width: 35%;
+    object-fit: cover;
+}
+.layr2 h4 {
+    position: relative;
+    bottom: 350px;
+    left: 5%;
+    font-family: 50px;
+    color: #e0c690;
+    font-weight: 500;
+}
+.layr2 h5 {
+    position: relative;
+    bottom: 310px;
+    left: 5%;
+    font-size: 16px;
+    color: #e0c690;
+    font-weight: 500;
+}
+.layr2 h2 {
+    position: relative;
+    bottom: 430px;
+    left: 35%;
+    font-size: 16px;
+    color: #e0c690;
+    font-weight: 500;
+}
+.layr2 h6 {
+    position: relative;
+    bottom: 390px;
+    left: 35%;
+    font-size: 16px;
+    color: #e0c690;
+    font-weight: 500;
+}
+p.cur {
+    position: relative;
+    top: -330px;
+    width: 25%;
+    color: #3a3838;
+}
+p.cur3 {
+    position: relative;
+    top: -280px;
+    width: 25%;
+    color: #3a3838;
+}
+p.cur2 {
+    position: relative;
+    left: 35%;
+    top: -420px;
+    width: 25%;
+    color: #3a3838;
+}
+p.cur4 {
+    position: relative;
+    left: 35%;
+    top: -370px;
+    width: 25%;
+    color: #3a3838;
+}
+.imgg  {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photo/barber-2.jpeg');
+    position: relative;
+    top: 200px;
+    right: 5%;
+    width: 110%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.layr3 {
+    width: 100%;
+    height: 200px;
+    background-color: #f3c05c;
+}
+.imgg h3 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgg i {
+    position: relative;
+    left: 48%;
+    top: 100px;
+    font-size: 40px;
+}
+.imgg p {
+    position: relative;
+    left: 15%;
+    top: 150px;
+    font-size: 27px;
+    width: 70%;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.testimonial-author {
+    position: relative;
+    top: 300px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.testimonial-position {
+    position: relative;
+    top: 320px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.special-heading-title {
+    color: #f3c05c;
+    position: relative;
+    left: 45%;
+    top: 220px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.special-heading-subtitle {
+    color: #808080;
+    position: relative;
+    left: 43%;
+    top: 230px;
+    font-size: 20px;
+}
+.iconss i {
+    position: relative;
+    top: 410px;
+    
+    
+    font-size: 30px;
+}
+.fa-figma {
+    position: relative;
+    left: 10%;
+}
+.fa-desktop {
+    position: relative;
+    left: 10%;
+}
+.fa-pencil {
+    position: relative;
+    left: 10%;
+}
+.fa-bullhorn {
+    position: relative;
+    left: 10%;
+}
+.fa-comment {
+    position: relative;
+    left: 10%;
+}
+.fa-newspaper {
+    position: relative;
+    left: 10%;
+}
+.ic {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.pbv {
+    position: relative;
+    top: 400px;
+    left: 8%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.rr {
+    position: relative;
+    top: 370px;
+    left: 44%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.w {
+    position: relative;
+    top: 350px;
+    left:77%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.d {
+    position: relative;
+    top: 45px;
+    left: 9%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.f {
+    position: relative;
+    top: 18px;
+    left: 44%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.do {
+    position: relative;
+    bottom: 5px;
+    left:78%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0c690;
+}
+.ta {
+    position: relative;
+    top: 360px;
+    left: 8%;
+    width: 350px;
+    color: #808080;
+}
+.gage {
+    position: relative;
+    top: 320px;
+    left: 43%;
+    width: 350px;
+    color: #808080;
+}
+.buil {
+    position: relative;
+    top: 280px;
+    left: 74%;
+    width: 350px;
+    color: #808080;
+}
+.of {
+    position: relative;
+    top: 5px;
+    left: 9%;
+    width: 350px;
+    color: #808080;
+}
+.our {
+    position: relative;
+    bottom: 35px;
+    left: 44%;
+    width: 350px;
+    color: #808080;
+}
+.ev {
+    position: relative;
+    bottom: 70px;
+    left: 72%;
+    width: 350px;
+    color: #808080;
+}
+.cont h1 {
+    position: relative;
+    top: 200px;
+    left: 5%;
+    color: #e0c690;
+    font-weight: 400;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.iam {
+    position: relative;
+    top: 230px;
+    left: 5%;
+    width: 45%;
+    color: #4b4b4bd7;
+}
+.conta {
+    position: relative;
+    top: 300px;
+    left: 5%;
+    color: #4b4b4bd7;
+}
+.lyy2 {
+    position: relative;
+    top: 350px;
+    left: 5%;
+    font-size: 25px;
+}
+.fa-phone {
+    position: relative;
+    top: 80px;
+    right: 26%;
+}
+.fa-headphones {
+    position: relative;
+    top: 150px;
+    right: 37%;
+}
+.fa-envelope{
+    position: relative;
+    top: 220px;
+    right: 48%;
+}
+.lyy2 h3 {
+    font-size: 20px;
+    font-weight: 200;
+} 
+.man {
+    position: relative;
+    bottom: 25px;
+    left: 15%;
+    color: #3b3b3bd2;
+}
+.pho {
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+    color: #3b3b3bd2;
+}
+.poo {
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+    color: #3b3b3bd2;
+}
+.gamil {
+    position: relative;
+    bottom: 25px;
+    left: 25%;
+    color: #3b3b3bd2;
+}
+.gps {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 600px;
+    
+}
+.footer {
+    position: relative;
+    
+    width: 100%;
+    height: 450px;
+    background-color: #363333;
+}
+.abut {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: 50;
+    font-size: 13px;
+    position: relative;
+    top: 50px;
+}
+.p44 {
+    position: relative;
+    top: 100px;
+    width: 25%;
+    color: #5d5b5b;
+    left: 5%;
+}
+.we {
+    position: relative;
+    top: 25px;
+}
+.hou {
+    position: relative;
+    left: 55%;
+    line-height: 45px;
+    bottom: 50px;
+    color: #5d5b5b;
+}
+.deta {
+    position: relative;
+    left: 80%;
+    line-height: 55px;
+    bottom: 320px;
+    color: #5d5b5b;
+}
+.grr {
+    width: 20%;
+}
+.footer2 {
+    width: 100%;
+    height: 400px;
+    background-color: #222222;
+    position: relative;
+    bottom: 270px;
+}
+.footer2 img {
+    position: relative;
+    left: 37%;
+    top: 70px;
+    width: 170px;
+}
+.footer2 p {
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+.footer2 i {
+    position: relative;
+    left: 40%;
+    top: 150px;
+    font-size: 30px;
+    letter-spacing: 40px;
+}
+
+label{
+    display: none;
+}
+#check{
+    z-index: 3;
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    section {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 8310px;
+    }
+    header .navbar{
+        display: none;
+        cursor: pointer;
+    }
+    label {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: color;
+        text-align: end;
+        margin-right: 25px;
+        position: relative;
+        left: 200px;
+    }
+    label:hover{
+        color: #ffffffcf;
+    }
+    label .fa-xmark{
+        display: none;
+        color: #f3c05c;
+    }
+    label .fa-bars {
+        color: #e0c690;
+        position: relative;
+        right: 50%;
+        bottom: 30px;
+    }
+    #check:checked ~ header .navbar{
+        z-index: 2;
+        position: fixed;
+        background: #e0c59085;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    #check:checked ~ header .navbar a {
+        font-weight: 900px;
+        margin-right: 0;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        color: #000;
+        overflow: hidden;
+    }
+    #check:checked ~ header .navbar i {
+        font-size: 20px;
+    }
+    #check:checked ~ header .navbar a:hover{
+        color: #e0c690;
+    }
+    #check:checked ~ header label .fa-bars {
+        display: none;
+    }
+    #check:checked ~ header label .fa-xmark {
+        z-index: 2;
+        display: block;
+        position: fixed;
+    }
+    .logo img {
+        width: 20%;
+        position: relative;
+    }
+    .container {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photo/barber-15.jpeg');
+        
+    }
+    .fadeInUp {
+        font-size: 40px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .veented {
+        width: 90%;
+    }
+    .Learn {
+        width: 25%;
+    }
+    .VIEW {
+        width: 40%;
+    }
+    .layr {
+        height: 900px;
+        position: relative;
+        top: 900px;
+        background-color: rgb(255, 255, 255);
+    }
+    .fa-circle {
+        position: relative;
+        bottom: 800px;
+        visibility: hidden;
+    }
+    .fa-users {
+        position: relative;
+        bottom: 500px;
+        left: 35%;
+    }
+    .powerful h4 {
+        position: relative;
+        bottom: 520px;
+        left: 40%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .powerful h5 {
+        position: relative;
+        bottom: 150px;
+        left: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .powerful h3 {
+        position: relative;
+        bottom: 350px;
+        right: 12%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .powerful h2 {
+        position: relative;
+        right: 40%;
+        width: 100%;
+        font-size: 20px;
+    }
+    .fa-map {
+        position: relative;
+        bottom: 340px;
+        left: 10%;
+    }
+    .fa-signal {
+        position: relative;
+        bottom: 140px;
+        right: 15%;
+    }
+    .fa-thumbs-up {
+        position: relative;
+        top: 20px;
+        right: 40%;
+    }
+    .morbi {
+        display: none;
+    }
+    .layr2 {
+        height: 1410px;
+    }
+    .layr2 img {
+        position: relative;
+        top: 920px;
+        left: 0;
+        object-fit: contain;
+        width: 100%;
+        
+    }
+    .layr2 h3 {
+        font-size: 25px;
+    }
+    .layr2 p {
+        width: 90%;
+    }
+    .layr2 h4 {
+        position: relative;
+        left: 35%;
+        
+    }
+    .layr2 h2 {
+        position: relative;
+        top: -290px;
+    }
+    .layr2 h5 {
+        position: relative;
+        left: 35%;
+        top: -210px;
+        
+    }
+    .layr2 h6 {
+        position: relative;
+        top: -100px;
+    }
+    
+    p.cur {
+        text-align: center;
+    }
+    p.cur2 {
+        position: relative;
+        top: -270px;
+        left: 8%;
+        right: 0;
+        text-align: center;
+
+    }
+    p.cur3 {
+        position: relative;
+        top: -180px;
+        text-align: center;
+
+    }
+    p.cur4 {
+        position: relative;
+        top:-80px ; 
+        left: 60px;
+        align-items: center;
+    }
+    .imgg  {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../photo/barber-2.jpeg');
+        height: 800px;
+    }
+    .imgg p {
+        position: relative;
+        top: 200px;
+    }
+    .special-heading-title {
+        position: relative;
+        left: 100px;
+        right: 0px;
+        
+        
+    }
+    .special-heading-subtitle {
+        position: relative;
+        left: 80px;
+        right: 0px;
+        bottom: 30px;
+    }
+    .iconss {
+        display: flex;
+        
+    }
+    .fa-pencil {
+        position: relative;
+        
+        bottom: -800px;
+    }
+    
+    .rr {
+        
+        position: relative;
+        top: 650px;
+        bottom: 0;
+        margin-left: 35px;
+        left: 0;
+        
+    }
+    .w {
+        
+        position: relative;
+        top: 950px;
+        bottom: 0;
+        margin-left: 35px;
+        left: 0;
+    }
+    .ta {
+        
+        position: relative;
+        
+    }
+    .gage {
+        position: relative;
+        margin-top: 290px;
+        margin-left: -140px;
+        
+        
+    }
+    .buil {
+        position: relative;
+        margin-top: 330px;
+        margin-left: -250px;
+    }
+    .h33 {
+        margin-top: 900px;
+    }
+    .d {
+        position: relative;
+        top: -500px;
+        
+    }
+    .of {
+        position: relative;
+        top: -520px;
+    }
+    .f {
+        position: relative;
+        top: -370px;
+        left: 0;
+        margin-left: 40px;
+        
+    }
+    .our {
+        position: relative;
+        top: -400px;
+        left: 0;
+        margin-left: 40px;
+    }
+    .do {
+        
+        position: relative;
+        top: -170px;
+        left: 0;
+        margin-left: 40px;
+    }
+    .ev {
+        position: relative;
+        top: -220px;
+        left: 0;
+        margin-left: 40px;
+        
+    }
+    .cont h1 {
+        position: relative;
+        top: -100px;
+        font-size: 25px;
+    }
+    .iam {
+        position: relative;
+        top: -90px;
+        width: 80%;
+    }
+    .conta {
+        position: relative;
+        top: -50px;
+    }
+    .fa-map {
+        position: relative;
+        left: 0;
+    }
+    .man {
+        font-size: 15px;
+        width: 90%;
+    }
+    .fa-phone {
+        position: relative;
+        left: 0;
+        top: -300px;
+    }
+    .fa-headphones {
+        position: relative;
+        left: -150px;
+        right: 0;
+        top: -200px;
+    }
+    .fa-envelope {
+        position: relative;
+        
+        right: 0;
+        top: -170px;
+    }
+    .gps {
+        position: relative;
+        top: 200px;
+        left: 0;
+        width: 20%;
+    }
+    .abut {
+        position: relative;
+        top: 200px;
+    }
+    .About {
+        position: relative;
+        bottom: 25px;
+        left: 4%;
+    }
+    .Gallery {
+        position: relative;
+        top: 340px;
+        right: 15%;
+    }
+    .OpeningHours {
+        position: relative;
+        top: 400px;
+        right: 35%;
+    }
+    .p44 {
+        width: 50%;
+        position: relative;
+        top: 200px;
+        bottom: 0;
+    }
+    .hou {
+        position: relative;
+        top: 400px;
+        left: 0;
+        margin-left: 20px;
+    }
+    .Contact {
+        position: relative;
+        top: 800px;
+        left: -65%;
+        
+        
+    }
+    .deta {
+        position: relative;
+        top: 500px;
+        left: 0;
+        margin-left: 20%;
+        
+    }
+    .grr {
+        width: 105%;
+        position: relative;
+        right: 15%;
+    }
+    .vv {
+        position: relative;
+        right: 15%;
+    }
+    .aa {
+        position: relative;
+        right: 15%;
+    }
+    .qq {
+        position: relative;
+        right: 15%;
+    }
+    
+    .footer {
+        height: 1300px;
+    }
+    .footer2 {
+        position: relative;
+        top: 500px;
+        height: 340px;
+    }
+    .footer2 img {
+        position: relative;
+        left: 0;
+        margin-left: 25%;
+    }
+    .footer2 i {
+        position: relative;
+        left: 0;
+        margin-left: 10%;
+        letter-spacing: 20px;
+    }
+
+    }
+    
+
+
